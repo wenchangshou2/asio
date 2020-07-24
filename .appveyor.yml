@@ -105,20 +105,6 @@ for:
 
 matrix:
   exclude:
-    - image: Visual Studio 2013
-      SEPARATE_COMPILATION: 1
-    - image: Visual Studio 2013
-      CXXLATEST: 1
-    - image: Visual Studio 2013
-      USING_BOOST: 1
-    - image: Visual Studio 2013
-      MINGW: 1
-    - image: Visual Studio 2015
-      HEADER_ONLY: 1
-    - image: Visual Studio 2015
-      CXXLATEST: 1
-    - image: Visual Studio 2015
-      WIN9X: 1
     - image: Visual Studio 2017
       SEPARATE_COMPILATION: 1
     - image: Visual Studio 2017
